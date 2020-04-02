@@ -1,12 +1,21 @@
 {
   "name": "tspg",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple Typescript + PostgreSQL project for learning both of these technologies",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "Corey Scheideman <coreys1@umbc.edu>",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/corscheid/tspg.git"
+  },
+  "dependencies": {
+    "@types/node": "^13.9.8",
+    "ts-postgres": "^1.1.3",
+    "typescript": "^3.8.3"
+  }
 }
